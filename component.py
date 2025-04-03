@@ -84,7 +84,7 @@ radius = float(radius)
 """
         
 if pl is not None:
-    #_globals_ kill me
+    #_globals_
     # generate planes along a polyline and writes them to _planes_
     up = rh.Vector3d(0,0,1)
     _planes_ = [None] * pl.Count
